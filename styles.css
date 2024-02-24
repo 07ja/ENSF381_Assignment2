@@ -1,0 +1,153 @@
+/*===========================================================================
+Name        : styles.css
+Assignment  : Assignment 1
+Author(s)   : Jaimal Sahota (30126909), 
+Submission  : Feb 5, 2024
+==============================================================================*/
+
+/*Header*/
+header {
+    background-color: #333;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+/*Navigation*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*Main Contact*/
+
+
+
+/*Main Index*/
+/*About Us*/
+.about-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+/*Shop Now*/
+.shop-now-btn {
+   background-color: #4CAF50;
+   color: #ffffff;
+   font-family: Arial;
+   font-size: 16px;
+   padding: 10px;
+   margin: 20px;
+   border-radius: 5px;
+   border: none;
+}
+
+/*Customer Review*/
+.customer-reviews {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+
+/*Main Login*/
+
+
+
+/*Main Product*/
+/*Product List*/
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ddd;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Product Styling*/
+.product {
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: Arial;
+    transition: background-color 0.2s;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product:hover {
+    background-color: #ffffff;
+}
+
+.product .price {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/*Add to Cart*/
+.product button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.product button:hover {
+    background-color: #45A049;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+}
