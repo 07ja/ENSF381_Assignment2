@@ -23,6 +23,9 @@ header {
 }
 
 
+
+
+
 /*Navigation*/
 nav {
     display: flex;
@@ -62,11 +65,11 @@ nav {
     padding: 0px;
     margin: 0px;
     border-radius: 10px;
-    transition: background-color 0.2s;
+    transition: color 0.2s;
 }
 
 .contact-method ul li a:hover {
-    background-color: #007BFF;
+    color: #007BFF;
 }
 
 
@@ -96,6 +99,7 @@ nav {
    margin: 20px;
    border-radius: 5px;
    border: none;
+   cursor: pointer;
 }
 
 /*Customer Review*/
@@ -128,7 +132,6 @@ nav {
     font-size: 18px;
 }
 
-
 .login-form label {
     display: block;
     margin: 10px;
@@ -158,13 +161,14 @@ nav {
     opacity: 0.5;
     transition: background-color 0.2s;
     transition: opacity 0.2s;
+    cursor: pointer;
+    border: none;
 }
 
 .login-btn:hover {
     background-color: #45A049;
     opacity: 1.0;
 }
-
 
 .signup-link {
     color: #007BFF;
@@ -235,6 +239,7 @@ nav {
     border-radius: 5px;
     border: none;
     transition: background-color 0.2s;
+    cursor: pointer;
 }
 
 .product button:hover {
@@ -255,81 +260,3 @@ footer {
     font-family: Arial;
     font-size: 18px;
 }
-
-/*login */
-.login-form{
-    display: flexbox;
-    max-width: calc(100% - 60px);
-    text-align: center;
-    background-color: #ddd; 
-    padding: 20px; 
-    margin: 20px; 
-    border-radius: 10px;
-}
-
-.login-form form{
-    display: inline-block;
-    text-align: left;
-}
-
-.login-form label{
-    display: block;
-    margin: 10px;
-}
-
-.login-form input{
-    display: inline-block;
-    background-color: #fff;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.signup-link{
-    color: #007BFF;
-    margin: 10px;
-    text-decoration: none;
-}
-
-.signup-link:hover{
-    text-decoration: underline;
-}
-
-.login-btn{
-    background-color:#4CAF50 ;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px;
-    opacity: 0.5;
-}
-
-.login-btn:hover{
-    background-color:#45A049 ;
-    opacity: 1;
-}
-
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    background-color: #ddd;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    font-family: Arial;
-    font-size: 18px;
-}
-
-/*Contact */
-.contact-method {
-    background-color: #ddd;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 10px;
-    transition: background-color 0.2s;
-}
-
-.contact-method ul li a:hover {
-    background-color: #007BFF;
-}
-
-
