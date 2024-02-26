@@ -151,3 +151,55 @@ footer {
     font-family: Arial;
     font-size: 18px;
 }
+
+/*login */
+.login-form{
+    display: flexbox;
+    max-width: calc(100% - 60px);
+    text-align: center;
+    background-color: #ddd; 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 10px;
+}
+
+.login-form form{
+    display: inline-block;
+    text-align: left;
+}
+
+.login-form label{
+    display: block;
+    margin: 10px;
+}
+
+.login-form input{
+    display: inline-block;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login-btn{
+    background-color:#4CAF50 ;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+.login-btn:hover{
+    background-color:#45A049 ;
+    opacity: 1;
+}
+
+.signup-link{
+    color: #007BFF;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.signup-link:hover{
+    text-decoration: underline;
+}
