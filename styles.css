@@ -23,9 +23,6 @@ header {
 }
 
 
-
-
-
 /*Navigation*/
 nav {
     display: flex;
@@ -131,7 +128,7 @@ nav {
     font-size: 18px;
 }
 
-/*Form Fields*/
+
 .login-form label {
     display: block;
     margin: 10px;
@@ -151,7 +148,7 @@ nav {
     border-radius: 5px;
 }
 
-/*Login Button*/
+
 .login-btn {
     background-color: #4CAF50;
     color: #ffffff;
@@ -168,7 +165,7 @@ nav {
     opacity: 1.0;
 }
 
-/*Sign Up*/
+
 .signup-link {
     color: #007BFF;
     margin: 10px;
@@ -288,6 +285,16 @@ footer {
     border-radius: 5px;
 }
 
+.signup-link{
+    color: #007BFF;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.signup-link:hover{
+    text-decoration: underline;
+}
+
 .login-btn{
     background-color:#4CAF50 ;
     padding: 10px;
@@ -301,12 +308,28 @@ footer {
     opacity: 1;
 }
 
-.signup-link{
-    color: #007BFF;
-    margin: 10px;
-    text-decoration: none;
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 18px;
 }
 
-.signup-link:hover{
-    text-decoration: underline;
+/*Contact */
+.contact-method {
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    transition: background-color 0.2s;
 }
+
+.contact-method ul li a:hover {
+    background-color: #007BFF;
+}
+
+
